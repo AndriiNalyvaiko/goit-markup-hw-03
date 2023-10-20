@@ -1,50 +1,121 @@
-/* скидання маркерів */
-ul, ol {list-style-type: none;}
-/* скидання підкреслень в посиланнях */
-a {text-decoration: none;}
+/* скидання відступів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
 
+ul,
+ol {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    align-self: center;
+}
+.section {padding-bottom: 120px;
+padding-top: 120px;}
+/* скидання маркерів */
+ul,
+ol {
+    list-style-type: none;
+}
+
+/* скидання підкреслень в посиланнях */
+a {
+    text-decoration: none;  
+}
+ 
 /* body */
 body {
 font-family: 'Roboto',
-sans-serif;
+sans-serif; 
 font-style: normal;
 font-weight: 400px;
 color: #434455;
 background-color: #FFFFFF;
+} 
+/* навігація Header*/
+.page-header {
+    justify-content:center;
+    align-items: center;
+    flex-shrink: 0;
+    border-bottom: 1px solid #e7e9fc;
+    background: #ffffff;
 }
-/* стилі */
-.logotype {
+
+.conteiner-header-flex{display: flex;}
+
+.page-navigationn {
+    display: flex;
+    align-items: center;}
+
+.logotype {display: inline-flex;
+align-items: center;
+flex-shrink: 0;
+margin-right: 76px;
+/* --------------- */
 font-family: 'Raleway',
-sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17; 
-text-transform: uppercase;
-letter-spacing: 0.03em;
-color: #4D5AE5;} 
-.logo-end {color: #2E2F42;}
+        sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4D5AE5;}
+.logotype :focus
+.logotype :hover
+.logo-end {
+    color: #2E2F42;
+}
+
+
+.menu {display: flex;
+align-items: flex-start; gap:40px}
+
+
+
 .menu-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;}
-.contacts {font-style: normal;}
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
+.contacts {font-style: normal;
+margin-left: auto;}
 .contacts-link {
+display: flex; 
+gap: 40px;
 font-size: 16px; 
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;}
-.menu-link:hover,
-.menu-link:focus {
-color: #404BBF; 
-}
 
-.contacts-link:hover,
-.contacts-link:focus {
-    color: #404BBF;
-}
+
+
 /* MAIN CONTENT */
 /* активація кнопок на зміну курсора при наведенні */
 button {
