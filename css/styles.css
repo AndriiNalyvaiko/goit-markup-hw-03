@@ -1,4 +1,12 @@
-/* скидання відступів */
+/* body */
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    color: #434455;
+    background-color: #FFFFFF;
+}/* скидання відступів */
 h1,
 h2,
 h3,
@@ -31,25 +39,16 @@ img {
 .section {padding-bottom: 120px;
 padding-top: 120px;}
 /* скидання маркерів */
-ul,
-ol {
+.list {
     list-style-type: none;
 }
-
-/* скидання підкреслень в посиланнях */
-a {
-    text-decoration: none;  
+/* скидання підкреслень */
+.link {
+    text-decoration: none;
+    display: block;
 }
  
-/* body */
-body {
-font-family: 'Roboto',
-sans-serif; 
-font-style: normal;
-font-weight: 400px;
-color: #434455;
-background-color: #FFFFFF;
-} 
+
 /* навігація Header*/
 .page-header {
     justify-content:center;
@@ -61,7 +60,7 @@ background-color: #FFFFFF;
 
 .conteiner-header-flex{display: flex;}
 
-.page-navigationn {
+.page-navigation {
     display: flex;
     align-items: center;}
 
@@ -70,6 +69,7 @@ align-items: center;
 flex-shrink: 0;
 margin-right: 76px;
 /* --------------- */
+
 font-family: 'Raleway',
         sans-serif;
     font-size: 18px;
@@ -80,19 +80,22 @@ font-family: 'Raleway',
     color: #4D5AE5;}
 .logotype :focus
 .logotype :hover
-.logo-end {
+.logo-end  {
     color: #2E2F42;
 }
 
 
 .menu {display: flex;
-align-items: flex-start; gap:40px}
+ gap:40px}
 
-
+.contacts {font-style: normal; 
+    margin-left: auto; }
+    .contacts-menu {display: flex;
+    gap: 40px}
 
 .menu-link {
-    padding-top: 24px;
-    padding-bottom: 24px;
+padding-top: 24px;
+padding-bottom: 24px;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
