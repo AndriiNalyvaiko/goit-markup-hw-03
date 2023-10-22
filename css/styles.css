@@ -25,9 +25,9 @@ padding-bottom: 120px;}
  /* ============header=============== */
 .container {width: 1158px;
 margin: 0 auto;
-padding: 0 15px;
+padding: 0 15px;}
 .logotype {margin-right: 76px}
-}
+
 .header-container{
 display: flex;
 justify-content: 
